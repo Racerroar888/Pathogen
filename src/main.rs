@@ -1,3 +1,7 @@
+fn generate(prompt: &str) {
+  println!("{}", prompt)
+}
+
 fn main() {
-    println!("Hello, world!");
+    generate("Hello, world!");
 }
